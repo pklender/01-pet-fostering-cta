@@ -5,8 +5,8 @@ The CTA section should be a tall, visually striking banner and include:
 - A large main heading that encourages visitors to take action.
 - A short description explaining the importance of fostering rescue animals.
 - A call-to-action link styled as a bright, eye-catching button that stands out against the background.
-
 Follow these guidelines:
+
 - Use a nature-inspired, blue & teal color palette to convey trust, reliability, and calmness.
 - Use a modern, easy-to-read font to enhance readability and design.
 - Document the CSS with short comments that explain its purpose.

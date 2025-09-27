@@ -1,0 +1,100 @@
+/* Call-to-Action Banner Styles */
+.cta-banner {
+  height: 400px; /* Tall banner */
+  background: #1e90a3; /* Fallback color */
+  background-image: url('img/cta-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+.cta-banner::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background: rgba(0, 0, 0, 0.2); /* Light black overlay for subtle effect */
+  z-index: 1;
+}
+.cta-banner h1 {
+  position: relative;
+  z-index: 2;
+  font-size: 3.5em;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-family: Arial, Helvetica, sans-serif; /* Modern, easy-to-read font */
+}
+.cta-banner p {
+  position: relative;
+  z-index: 2;
+  font-size: 1.2em;
+  margin-bottom: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.cta-button {
+  position: relative;
+  z-index: 2;
+  display: inline-block;
+  padding: 15px 40px;
+  background-color: #00bfae; /* Bright teal button */
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+  border: none;
+  cursor: pointer;
+}
+.cta-button:hover {
+  background-color: #009e8e;
+}
+
+/* Site Header Styles */
+.site-header {
+  background-color: #1e90a3; /* Blue from palette */
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  font-family: Arial, Helvetica, sans-serif; /* Modern font */
+  border-bottom: 2px solid #00bfae; /* Teal accent */
+}
+.site-header h2 {
+  margin: 0;
+  font-size: 2em;
+  letter-spacing: 2px;
+}
+
+/* Fostering Info Section Styles */
+.foster-info {
+  width: 80%;
+  margin: 40px auto;
+  background: #f6fcff; /* Light blue background for contrast */
+  display: table; /* Simple two-column layout for beginners */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(30,144,163,0.08);
+}
+.foster-img {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 20px;
+  max-width: 550px;
+  border-radius: 30px;
+}
+.foster-text {
+  display: table-cell;
+  width: 50%;
+  vertical-align: middle;
+  padding: 20px;
+  color: #1e90a3;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.foster-text h3 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+.foster-text p {
+  font-size: 1.1em;
+}
